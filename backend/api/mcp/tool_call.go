@@ -19,6 +19,7 @@ type CallInput struct {
 	// Body is the JSON request body to send to the endpoint.
 	// The structure depends on the endpoint - use search_api with includeSchema=true to see the expected format.
 	Body map[string]any `json:"body,omitempty"`
+	test
 }
 
 // CallOutput is the output for the call_api tool.
